@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Input Table</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <!-- Code to get multiple student details and display them in table -->
+    <div id="container">
+      <div class="input">
+        Name: <input id="name" type="text" placeholder="John Smith" />
+      </div>
+      <div class="input">
+        Code:
+        <input id="code" type="text" placeholder="Please ask TA for code" />
+      </div>
+      <div class="input">
+        Course: <input id="course" type="text" placeholder="COSC010" />
+      </div>
+
+      <button id="entry">Join!</button>
+    </div>
+
+    <table id="display">
+      <tr>
+        <th>Name</th>
+        <th>Code</th>
+        <th>Course</th>
+      </tr>
+    </table>
+
+    <script src="script.js"></script>
+  </body>
+</html>
